@@ -1,5 +1,6 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/hero.png";
+import profilePic from "../assets/heroProfile.png";
+
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -18,7 +19,7 @@ const Hero = () => {
                         initial="hidden"
                         animate="visible"
                         className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
-                        XuF
+                        Xu Fei  
                     </motion.h1>
                     <motion.span 
                         variants={container(0.5)}
